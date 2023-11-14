@@ -8,16 +8,27 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       backgroundColor: {
         'mainPurpleColor': '#883EDD',
+        'secondaryCyanColor': '#00CCFF',
       },
       textColor: {
         'redAlert': '#EB5353',
+      },
+      width : {
+        'mainPageText': '29.063rem',
+
+        /*Tamanho dos blocos da MainPage(main) em ordem de aparição*/
+        'mp1': '71.25rem',
+        'mp2': '26.875rem',
+        'mp3': '42.813rem',
+
+        /*Tamanho dos blocos da MainPage(footer) em ordem de aparição*/
+        'mpf1': '24.125rem',
+        'mpf-2': '45.563rem',
+      },
+      height: {
+        'mainPageFooter': '33.625rem',
       },
     },
   },
