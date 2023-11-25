@@ -17,7 +17,7 @@ function Form(){
             <label htmlFor="name">Tipo Sanguíneo</label>
             <input name='name' id='name' type="text" />
 
-            <button></button>
+            <button>Organizar Agora!</button>
         </form>
     )
 }
@@ -26,7 +26,7 @@ export function MainPage(){
     const router = useRouter();
 
     return(
-        <div className='flex flex-col justify-center items-center gap-y-6'>
+        <div className='w-mp1 flex flex-col justify-center items-center gap-y-6'>
             <main className="flex flex-col gap-y-6 p-8">
                 <div className="w-mp1 h-80 flex bg-white rounded-2xl p-14 gap-x-48">
                     <section className='flex flex-col gap-y-6'>

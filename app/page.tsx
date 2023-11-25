@@ -3,9 +3,11 @@ import { MainPage } from './components/mainpage'
 
 export default function Home() {
   return (
-    <body className='w-screen h-screen'>
+    <body className='w-full h-full'>
       <SideBar />
-      <MainPage />
+      <div className='flex flex-col justify-center items-center'>
+        <MainPage />
+      </div>
     </body>
   )
 }
