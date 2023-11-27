@@ -1,5 +1,5 @@
 import { SideBar } from './components/sidebar'
-import { MainPage } from './components/mainpage'
+import { MainPage } from './components/mainpage/mainpage'
 
 export default function Home() {
   return (
