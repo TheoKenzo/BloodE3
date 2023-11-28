@@ -39,7 +39,7 @@ export function Footer(){
                 </div>
             </div>
 
-            <div className='flex flex-col justify-center items-center w-mpf-2 h-full bg-mainPurpleColor rounded-2xl'>
+            <div className='flex flex-col justify-center items-center w-mpf-2 h-full bg-mainPurpleColor rounded-2xl gap-12  '>
                 <h1 className='font-semibold text-5xl'>Nós Fazemos Tudo por você:</h1>
                 <Form />
             </div>
