@@ -5,7 +5,7 @@ import { BloodBaseForm } from './bloodbaseform';
 
 export function MainPage(){
     return(
-        <div className='w-mp1 h-[90vw] flex flex-col justify-center items-center'>
+        <div className='w-mp1 flex flex-col justify-center items-center'>
             <main className="flex flex-col gap-y-6 p-8">
                 <section className="w-mp1 h-80 flex bg-white rounded-2xl p-14 gap-x-48">
                     <BloodForm />   
