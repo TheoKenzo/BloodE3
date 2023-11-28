@@ -1,10 +1,11 @@
 import { BloodForm } from './bloodform';
 import { Footer } from './footer';
 import { RequisitesForm } from './requisitesform';
+import { BloodBaseForm } from './bloodbaseform';
 
 export function MainPage(){
     return(
-        <div className='w-mp1 flex flex-col justify-center items-center gap-y-6'>
+        <div className='w-mp1 flex flex-col justify-center items-center'>
             <main className="flex flex-col gap-y-6 p-8">
                 <section className="w-mp1 h-80 flex bg-white rounded-2xl p-14 gap-x-48">
                     <BloodForm />   
@@ -45,6 +46,40 @@ export function MainPage(){
                     <div className='h-full w-mp3 flex flex-col justify-center items-center p-14 gap-x-48 rounded-2xl text-white bg-secondaryCyanColor'>
                         <h1 className='text-6xl font-bold'>+2.175</h1>
                         <p className='font-semibold'>Serviços de hemoterapia em todo país. A demanda por ajuda é muito alta</p>
+                    </div>
+                </section>
+
+                <section className="w-mp1 h-[20.063rem] flex flex-col justify-center items-center gap-6 bg-white rounded-2xl p-14 gap-x-48">
+                    <BloodBaseForm />
+                </section>  
+
+                <section className='flex h-[16.5rem] w-mp1 gap-x-6'>
+                    <div className='h-full w-[34.688rem] flex flex-col justify-center items-center gap-3 rounded-2xl bg-white'>
+                        <div className='flex flex-col w-[24.563rem] gap-6'>
+                            <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22.4999 6.4183C11.4085 6.4183 2.41716 15.0551 2.41716 25.7092C2.41716 36.3632 11.4085 45 22.4999 45C33.5913 45 42.5827 36.3632 42.5827 25.7092C42.5827 15.0551 33.5913 6.4183 22.4999 6.4183ZM34.5159 37.2513C31.7359 39.9216 28.0781 41.5835 24.1656 41.9536C20.2531 42.3238 16.328 41.3794 13.0591 39.2813C9.7902 37.1833 7.37979 34.0614 6.23854 30.4476C5.0973 26.8337 5.29583 22.9516 6.80033 19.4627C8.30482 15.9737 11.0222 13.0938 14.4894 11.3136C17.9566 9.53339 21.9592 8.96307 25.8151 9.6998C29.671 10.4365 33.1417 12.4347 35.6357 15.3539C38.1298 18.2732 39.493 21.9327 39.493 25.7092C39.4991 27.8536 39.0624 29.9779 38.208 31.9591C37.3537 33.9403 36.0988 35.7391 34.5159 37.2513Z" fill="#323232"/>
+                                <path d="M24.0448 13.8379H20.9551V26.4224L29.259 32.8035L31.1891 30.4861L24.0448 24.9959V13.8379Z" fill="#323232"/>
+                                <path d="M14.6759 6.43575e-05L0 9.64542L1.74472 12.0949L16.4207 2.44952L14.6759 6.43575e-05Z" fill="#323232"/>
+                                <path d="M30.3242 -2.25798e-05L28.5795 2.4494L43.2552 12.095L45 9.64558L30.3242 -2.25798e-05Z" fill="#323232"/>
+                            </svg>
+                            <div className='flex flex-col gap-2'>
+                                <h1 className='text-4xl font-semibold'>Dia de folga!</h1>
+                                <p className='text-base font-semibold'>Quando você entra no ciclo de ajuda, é recompensado por isso. Que tal um dia livre?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='h-full w-[35rem] flex flex-col justify-center items-center p-14 gap-x-48 rounded-2xl text-white bg-secondaryCyanColor'>
+                        <div className='flex flex-col w-[24.563rem] gap-6'>
+                            <svg width="64" height="46" viewBox="0 0 64 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23.4 36.2667H36.3333C40.2748 36.2622 44.0536 34.6944 46.8407 31.9074C49.6278 29.1203 51.1955 25.3415 51.2 21.4V19.2H54.4C56.9461 19.2 59.3879 18.1886 61.1882 16.3882C62.9886 14.5879 64 12.1461 64 9.6C64 7.05392 62.9886 4.61212 61.1882 2.81177C59.3879 1.01143 56.9461 3.79395e-08 54.4 0H8.53333V21.4C8.53781 25.3415 10.1056 29.1203 12.8926 31.9074C15.6797 34.6944 19.4585 36.2622 23.4 36.2667ZM51.2 4.26667H54.4C55.8145 4.26667 57.171 4.82857 58.1712 5.82876C59.1714 6.82896 59.7333 8.18551 59.7333 9.6C59.7333 11.0145 59.1714 12.371 58.1712 13.3712C57.171 14.3714 55.8145 14.9333 54.4 14.9333H51.2V4.26667ZM12.8 4.26667H46.9333V21.4C46.9302 24.2103 45.8124 26.9047 43.8252 28.8919C41.838 30.8791 39.1437 31.9969 36.3333 32H23.4C20.5897 31.9969 17.8953 30.8791 15.9081 28.8919C13.9209 26.9047 12.8031 24.2103 12.8 21.4V4.26667Z" fill="#F2F2F2"/>
+                                <path d="M64 41.6H0V45.8667H64V41.6Z" fill="#F2F2F2"/>
+                            </svg>
+                            <div className='flex flex-col gap-2'>
+                                <h1 className='text-4xl font-semibold'>Comida de graça</h1>
+                                <p className='text-base font-semibold'>Ao doar sangue, você ganha uma refeição gratuita do hemocentro. Uma mão lava a outra!</p>
+                            </div>
+                        </div>
                     </div>
                 </section>
 
