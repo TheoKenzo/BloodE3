@@ -1,11 +1,12 @@
 'use client'
+
 import { useRouter } from 'next/navigation';
 
 export function SideBar(){
     const router = useRouter();
 
     return(
-        <header className="fixed h-screen">
+        <header className="h-screen">
             <div className="flex w-60 h-28 py-6 pl-12 bg-mainPurpleColor">
                 <button type="button" className="appearance-none" onClick={() => {
                     router.push('/')
