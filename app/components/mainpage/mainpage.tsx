@@ -40,7 +40,7 @@ export function MainPage(){
                 <section className='flex h-52 w-mp1 gap-x-6'>
                     <div className='h-full w-mp2 flex flex-col justify-center items-center p-14 gap-x-48 rounded-2xl text-white bg-mainPurpleColor'>
                         <h1 className='text-6xl font-bold'>1 = 4</h1>
-                        <p className='font-semibold'>A cada doação sua, quatro pessoas vivem</p>
+                        <p className='font-semibold text-base'>A cada doação sua, quatro pessoas vivem</p>
                     </div>
 
                     <div className='h-full w-mp3 flex flex-col justify-center items-center p-14 gap-x-48 rounded-2xl text-white bg-secondaryCyanColor'>
