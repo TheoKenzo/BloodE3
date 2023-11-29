@@ -4,8 +4,8 @@ import { Form } from './form'
 
 export function Footer(){
     return(
-        <footer className='flex text-white h-mainPageFooter gap-x-6'>
-            <div className='flex flex-col justify-center items-center w-mpf1 h-full gap-y-12 rounded-2xl bg-secondaryCyanColor'>
+        <footer className='flex text-white h-[33.625rem] gap-x-6'>
+            <div className='flex flex-col justify-center items-center w-mpf1 h-full gap-y-12 rounded-2xl bg-secondaryCyanColor p-14'>
                 <h1 className='font-semibold text-5xl'>Fale conosco</h1>
 
                 <div className='flex flex-col gap-y-12'>
@@ -39,7 +39,7 @@ export function Footer(){
                 </div>
             </div>
 
-            <div className='flex flex-col justify-center items-center w-mpf-2 h-full bg-mainPurpleColor rounded-2xl gap-12'>
+            <div className='flex flex-col justify-center items-center w-mpf-2 h-full bg-mainPurpleColor rounded-2xl gap-12 p-14'>
                 <h1 className='font-semibold text-5xl'>Nós Fazemos Tudo por você:</h1>
                 <Form />
             </div>

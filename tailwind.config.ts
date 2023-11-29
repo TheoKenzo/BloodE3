@@ -28,9 +28,6 @@ const config: Config = {
         'mpf1': '24.125rem', //386 px
         'mpf-2': '45.563rem', //729.008 px
       },
-      height: {
-        'mainPageFooter': '33.625rem', //538 px
-      },
     },
   },
   plugins: [],
